@@ -10,8 +10,7 @@ A Particle project named SkateInfoView to display battery info over Bluetooth us
 - Speed sensing with hall-effect sensor
 - Trip mileage estimate using speed integration
 
-#### ```/src``` folder:  
-Source folder containing code that is run on the microcontroller of the battery monitor.
+## Hardware
 
-#### ```.ino``` file:
-Main application for battery monitor
+![Skate PCB](https://user-images.githubusercontent.com/47908040/197680026-56f95374-6045-4eba-9026-3f79cdce41b8.jpg)
+
