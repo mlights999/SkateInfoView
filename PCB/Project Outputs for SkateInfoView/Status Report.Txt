@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [SkateInfoView.PrjPcb]
+   Generated File[SkateInfoView.TXT]
+   Generated File[SkateInfoView.LDP]
+   Generated File[SkateInfoView.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 10:24:44 PM On 11/17/2021

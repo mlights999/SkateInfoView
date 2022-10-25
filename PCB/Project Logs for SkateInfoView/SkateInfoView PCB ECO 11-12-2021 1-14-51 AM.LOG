@@ -1,0 +1,8 @@
+Change Component Comment : Designator=R2 Old Comment=Comment New Comment=0.001 2W
+Change component parameters: Designator = "R2" ("R2"); Footprint = "RESC6432X90N"; UniqueID = "\SGBOYXFN" ("\SGBOYXFN")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "{'manufacturer': u'Bourns Inc.'}"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CRE2512-FZ-R001E-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
