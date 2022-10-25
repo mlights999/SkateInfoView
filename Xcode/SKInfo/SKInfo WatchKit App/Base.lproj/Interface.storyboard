@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="21225" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch44"/>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="21040"/>
+    </dependencies>
+    <scenes>
+        <!--SkateInfoView-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="SkateInfoView" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="SKInfo_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <separator alignment="left" id="DHz-p3-2bP"/>
+                        <label alignment="left" text="--" id="niq-jU-jbw"/>
+                        <label alignment="left" text="--" id="fxB-Iq-OAY"/>
+                        <label alignment="left" text="--" id="5Vl-dt-BI0"/>
+                        <label alignment="left" text="--" id="ZJG-XA-mQ8"/>
+                        <separator alignment="left" id="tRN-Cs-AUC"/>
+                        <label alignment="center" text="-- MPH" id="SzQ-TY-QEq">
+                            <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                        </label>
+                        <separator alignment="left" id="U5t-r3-K4g"/>
+                        <label alignment="center" text="-- %" id="vYp-NI-0uN">
+                            <fontDescription key="font" style="UICTFontTextStyleTitle2"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="SpeedLabel" destination="SzQ-TY-QEq" id="0QM-q4-uW7"/>
+                        <outlet property="currentLabel" destination="fxB-Iq-OAY" id="AlG-fY-dHO"/>
+                        <outlet property="energyLabel" destination="5Vl-dt-BI0" id="RyZ-KR-cLp"/>
+                        <outlet property="percentLabel" destination="vYp-NI-0uN" id="C3v-Zu-5W5"/>
+                        <outlet property="temperatureLabel" destination="ZJG-XA-mQ8" id="Zdw-BR-pm9"/>
+                        <outlet property="voltageLabel" destination="niq-jU-jbw" id="EaX-ZS-bLk"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-17" y="13"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" name="AccentColor"/>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
